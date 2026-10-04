@@ -1,45 +1,54 @@
 <div align="center">
 
-<img src="./assets/sao-hero.png" width="100%" alt="V S Kiran Hero Banner" />
+<!-- HERO -->
+<img src="./assets/sao-hero.png" width="950" alt="KIRAN — somewhere between circuits and code" />
 
-<br />
+<br /><br />
 
+<!-- CONTACT LINKS -->
 [LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;·&nbsp; [vskiran53@gmail.com](mailto:vskiran53@gmail.com)
 
 <br /><br />
 
-<img src="./assets/about.png" width="100%" alt="About V S Kiran" />
+<!-- WHO AM I + CURRENT FOCUS -->
+<img src="./assets/who-am-i.png" width="850" alt="WHO AM I & CURRENT FOCUS" />
 
 <br /><br />
 
-<img src="./assets/projects.png" width="100%" alt="Projects — RoadSOS, GridSenti, HireLoop" />
+<!-- TECHNICAL TOOLBOX -->
+<img src="./assets/toolbox.png" width="850" alt="CURRENT TOOLBOX // things i actually use" />
 
 <br /><br />
 
-<img src="./assets/achievement.png" width="100%" alt="Achievement — REVA Hackathon Runner-Up" />
+<!-- SOLO LEVELING — NEXT SKILL -->
+<img src="./assets/solo-leveling-quest.png" width="850" alt="NEXT SKILL: VLSI" />
 
 <br /><br />
 
-<img src="./assets/vlsi.png" width="100%" alt="Learning Arc — VLSI & Semiconductor Technology" />
+<!-- HORIMIYA — PERSONAL MOMENT -->
+<img src="./assets/horimiya-moment.png" width="650" alt="somewhere between classes and late-night debugging" />
 
 <br /><br />
 
-<img src="./assets/thoughts.png" width="100%" alt="Mental Notes" />
+<!-- COTE × THE MENTALIST — MENTAL NOTES -->
+<img src="./assets/mental-notes.png" width="850" alt="mental notes" />
 
 <br /><br />
 
-### things i actually use
-
-`C` &nbsp;·&nbsp; `C++` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `JavaScript` &nbsp;·&nbsp; `React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `Node.js` &nbsp;·&nbsp; `Git` &nbsp;·&nbsp; `GitHub`
+<!-- BLUE LOCK — REVA HACKATHON -->
+<img src="./assets/hackathon.png" width="850" alt="REVA HACKATHON Runner-up" />
 
 <br /><br />
 
-### activity
+<!-- CONTRIBUTION SNAKE -->
+<sub>activity</sub>
+
+<br /><br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake.svg" width="100%" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake.svg" width="850" />
 </picture>
 
 <br /><br />
