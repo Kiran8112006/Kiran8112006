@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/sao-hero.svg" width="100%" alt="SAO Midnight Skyline and Distant Aincrad Citadel" />
+<img src="./assets/sao-hero.jpg" width="100%" alt="SAO Midnight Skyline and Distant Aincrad Citadel" />
 
 # V S KIRAN
 
@@ -21,7 +21,7 @@ still figuring things out.
 ### `01 // ABOUT`
 
 <div align="center">
-  <img src="./assets/horimiya.svg" width="100%" alt="Quiet Rain-Streaked Study Desk Silhouette" />
+  <img src="./assets/horimiya.jpg" width="100%" alt="Quiet Rain-Streaked Study Desk Silhouette" />
 </div>
 
 > *“Late-night compile logs, steady rain against glass, and the quiet pursuit of foundational mastery.”*
@@ -42,7 +42,7 @@ CURRENT FOCUS   │  Hardware Telemetry · Real-Time Detection Pipelines · VLSI
 ### `02 // FIELD LOGS & RECONNAISSANCE`
 
 <div align="center">
-  <img src="./assets/aot-projects.svg" width="100%" alt="Survey Corps Telemetry and Project Waveforms" />
+  <img src="./assets/aot-projects.jpg" width="100%" alt="Survey Corps Telemetry and Project Waveforms" />
 </div>
 
 #### `01` RoadSOS
@@ -83,7 +83,7 @@ A unified coordination platform engineered for students, recruiters, and placeme
 ### `03 // COMPETITIVE ACCELERATION`
 
 <div align="center">
-  <img src="./assets/blue-lock.svg" width="100%" alt="Blue Lock Explosive Speed Lines and Shattered Glass Shards" />
+  <img src="./assets/blue-lock.jpg" width="100%" alt="Blue Lock Explosive Speed Lines and Shattered Glass Shards" />
 </div>
 
 ```text
@@ -98,7 +98,7 @@ MANDATE         │  High-velocity execution under strict 48-hour time constrain
 ### `04 // THE SILICON ARC`
 
 <div align="center">
-  <img src="./assets/solo-leveling.svg" width="100%" alt="Solo Leveling Shadow Monarch and Silicon Arc" />
+  <img src="./assets/solo-leveling.jpg" width="100%" alt="Solo Leveling Shadow Monarch and Silicon Arc" />
 </div>
 
 Moving deeper beneath the software abstraction layer into raw silicon logic, hardware description, and transistor physics.
@@ -114,7 +114,7 @@ OBJECTIVE       │  Bridging deterministic silicon hardware with modern computa
 ### `05 // COGNITIVE ARCHITECTURE & MINDSET`
 
 <div align="center">
-  <img src="./assets/mindset.svg" width="100%" alt="Chess Mastermind and Oscilloscope Telemetry" />
+  <img src="./assets/mindset.jpg" width="100%" alt="Chess Mastermind and Oscilloscope Telemetry" />
 </div>
 
 > *“In complex systems, noise is abundant. Precision is rare. Observe telemetry, isolate invariants, and execute without hesitation.”*
