@@ -10,7 +10,7 @@
 
 `software` &nbsp;·&nbsp; `electronics` &nbsp;·&nbsp; `ML` &nbsp;·&nbsp; `VLSI`
 
-*building things and figuring out why they work.*
+*mostly building things and figuring out how they work.*
 
 <br />
 
@@ -112,8 +112,8 @@
     <td width="58%" valign="middle">
       <h3>currently exploring</h3>
       <p><strong>VLSI &amp; Semiconductor Technology</strong></p>
-      <p>Still very much in the learning arc.</p>
-      <p>Exploring digital design fundamentals, Verilog HDL, and semiconductor technology down at the transistor gate level.</p>
+      <p>Still figuring out how everything goes from logic on a screen to actual silicon.</p>
+      <p>Exploring digital design fundamentals, Verilog HDL, and how gates behave at the hardware level.</p>
     </td>
     <td width="42%" align="center" valign="middle">
       <img src="./assets/solo-leveling.png" width="100%" alt="Solo Leveling shadow monarch" style="border-radius: 6px;" />
@@ -134,9 +134,9 @@
     </td>
     <td width="58%" valign="middle">
       <h3>mental notes</h3>
-      <p>• observe before assuming.</p>
-      <p>• understand the system before trying to fix it.</p>
-      <p>• look for the pattern before chasing the answer.</p>
+      <p>• Look at the data before guessing.</p>
+      <p>• Understand the system before trying to fix it.</p>
+      <p>• Debugging gets a lot easier once you stop assuming.</p>
     </td>
   </tr>
 </table>
