@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="100%">
+  <defs>
+    <!-- Screentone & Wafer Patterns -->
+    <pattern id="silicon-grid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="12" y2="0" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+    <pattern id="monarch-hatch" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#ffffff" opacity="0.22"/>
+    </pattern>
+    <linearGradient id="monarch-aura" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="300" fill="#0d1117"/>
+  <rect width="960" height="300" fill="url(#silicon-grid)"/>
+
+  <!-- Manga Frame -->
+  <rect x="8" y="8" width="944" height="284" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="12" y="12" width="936" height="276" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- TOP HEADER / SILICON ARC CALLOUT -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="14" height="14" fill="#ffffff"/>
+    <text x="22" y="11" font-family="'Courier New', monospace" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="2">04 // THE SILICON ARC // SHADOW MONARCH</text>
+    <text x="380" y="11" font-family="'Courier New', monospace" font-size="9" fill="#8b949e" letter-spacing="1.5">VLSI ARCHITECTURE · VERILOG HDL · SEMICONDUCTOR PHYSICS</text>
+  </g>
+
+  <!-- LEFT FLANK: SEMICONDUCTOR WAFER & LOGIC GATE RUNES -->
+  <g transform="translate(45, 60)">
+    <!-- Wafer Outline -->
+    <circle cx="65" cy="65" r="55" fill="#05070a" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="65" cy="65" r="45" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.4"/>
+    <!-- Die Grid -->
+    <g stroke="#ffffff" stroke-width="0.5" opacity="0.3">
+      <line x1="20" y1="45" x2="110" y2="45"/>
+      <line x1="15" y1="65" x2="115" y2="65"/>
+      <line x1="20" y1="85" x2="110" y2="85"/>
+      <line x1="45" y1="20" x2="45" y2="110"/>
+      <line x1="65" y1="15" x2="65" y2="115"/>
+      <line x1="85" y1="20" x2="85" y2="110"/>
+    </g>
+    <!-- Flat edge alignment notch -->
+    <polygon points="60,118 70,118 68,122 62,122" fill="#ffffff"/>
+    <text x="65" y="140" font-family="'Courier New', monospace" font-size="7.5" fill="#8b949e" text-anchor="middle">SILICON WAFER [300mm]</text>
+
+    <!-- Verilog RTL Logic Gate Symbols -->
+    <g transform="translate(10, 155)" stroke="#ffffff" stroke-width="1.2" fill="none">
+      <!-- AND Gate -->
+      <path d="M 10,10 L 25,10 C 35,10 40,16 40,22 C 40,28 35,34 25,34 L 10,34 Z"/>
+      <line x1="0" y1="16" x2="10" y2="16"/>
+      <line x1="0" y1="28" x2="10" y2="28"/>
+      <line x1="40" y1="22" x2="52" y2="22"/>
+      <text x="56" y="25" font-family="'Courier New', monospace" font-size="7" fill="#ffffff" stroke="none">GATE_AND</text>
+
+      <!-- XOR Gate -->
+      <path d="M 10,50 Q 18,62 10,74 M 14,50 Q 22,62 14,74 Q 28,74 38,62 Q 28,50 14,50 Z"/>
+      <line x1="2" y1="56" x2="12" y2="56"/>
+      <line x1="2" y1="68" x2="12" y2="68"/>
+      <line x1="38" y1="62" x2="52" y2="62"/>
+      <text x="56" y="65" font-family="'Courier New', monospace" font-size="7" fill="#ffffff" stroke="none">GATE_XOR</text>
+    </g>
+  </g>
+
+  <!-- CENTER: TOWERING RAGGED-WINGED SHADOW MONARCH & SOLITARY HUMAN SILHOUETTE -->
+  <g transform="translate(480, 85)">
+    <!-- Shadow Monarch Aura Spread -->
+    <ellipse cx="0" cy="50" rx="260" ry="110" fill="url(#monarch-aura)"/>
+
+    <!-- MASSIVE RAGGED MONARCH WINGS (Left & Right Spans) -->
+    <!-- Left Wing -->
+    <path d="M -18,25 
+             C -60,0 -120,-30 -220,-20 
+             C -230,-15 -215,10 -195,15 
+             C -240,25 -220,55 -170,50 
+             C -210,65 -190,95 -140,85 
+             C -170,105 -150,135 -110,120 
+             C -130,140 -100,165 -60,145 
+             C -40,110 -25,70 -18,35 Z" 
+          fill="#05070a" stroke="#ffffff" stroke-width="2"/>
+    <path d="M -18,25 C -60,0 -120,-30 -220,-20" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <!-- Wing Feather Veins -->
+    <path d="M -18,45 Q -100,-5 -220,-20" stroke="#0d1117" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M -30,60 Q -110,30 -195,15" stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.5"/>
+    <path d="M -25,85 Q -95,65 -170,50" stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.5"/>
+    <path d="M -20,110 Q -80,95 -140,85" stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.5"/>
+    <!-- Screentone on Left Wing -->
+    <path d="M -30,40 C -80,10 -150,-5 -200,5 C -180,30 -120,60 -50,70 Z" fill="url(#monarch-hatch)"/>
+
+    <!-- Right Wing -->
+    <path d="M 18,25 
+             C 60,0 120,-30 220,-20 
+             C 230,-15 215,10 195,15 
+             C 240,25 220,55 170,50 
+             C 210,65 190,95 140,85 
+             C 170,105 150,135 110,120 
+             C 130,140 100,165 60,145 
+             C 40,110 25,70 18,35 Z" 
+          fill="#05070a" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 18,25 C 60,0 120,-30 220,-20" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <!-- Wing Feather Veins -->
+    <path d="M 18,45 Q 100,-5 220,-20" stroke="#0d1117" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M 30,60 Q 110,30 195,15" stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.5"/>
+    <path d="M 25,85 Q 95,65 170,50" stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.5"/>
+    <path d="M 20,110 Q 80,95 140,85" stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.5"/>
+    <!-- Screentone on Right Wing -->
+    <path d="M 30,40 C 80,10 150,-5 200,5 C 180,30 120,60 50,70 Z" fill="url(#monarch-hatch)"/>
+
+    <!-- Spiky Mane & Head of Monarch -->
+    <path d="M -22,15 L -30,-15 L -20,-5 L -15,-35 L -8,-10 L 0,-50 L 8,-10 L 15,-35 L 20,-5 L 30,-15 L 22,15 Z" fill="#ffffff"/>
+    <!-- Glowing Eyes / Slits -->
+    <ellipse cx="-6" cy="-8" rx="2.5" ry="1.2" fill="#0d1117"/>
+    <ellipse cx="6" cy="-8" rx="2.5" ry="1.2" fill="#0d1117"/>
+
+    <!-- Skeletal Body of Monarch -->
+    <path d="M -22,15 C -25,45 -20,80 -14,130 C -10,135 -5,140 0,140 C 5,140 10,135 14,130 C 20,80 25,45 22,15 Z" fill="#ffffff"/>
+    <!-- Dangling Limbs & Claws -->
+    <path d="M -22,25 Q -38,90 -35,170 Q -32,210 -38,245 L -32,248 Q -26,210 -27,170 Q -28,95 -16,30 Z" fill="#ffffff"/>
+    <path d="M 22,25 Q 38,90 35,170 Q 32,210 38,245 L 32,248 Q 26,210 27,170 Q 28,95 16,30 Z" fill="#ffffff"/>
+    <path d="M -12,130 Q -18,200 -20,270 Q -22,310 -20,345 L -12,345 Q -14,310 -12,270 Q -6,200 -4,130 Z" fill="#ffffff" opacity="0.3"/>
+    <path d="M 12,130 Q 18,200 20,270 Q 22,310 20,345 L 12,345 Q 14,310 12,270 Q 6,200 4,130 Z" fill="#ffffff" opacity="0.3"/>
+
+    <!-- SOLITARY HUMAN SILHOUETTE (Standing at bottom center, looking up at the monarch) -->
+    <g transform="translate(0, 168)">
+      <!-- Ground plane shadow / ink pool -->
+      <ellipse cx="0" cy="30" rx="30" ry="5" fill="#05070a" stroke="#ffffff" stroke-width="0.8"/>
+      <!-- Human Head -->
+      <circle cx="0" cy="-2" r="5.5" fill="#ffffff"/>
+      <!-- Trench Coat / Torso Silhouette -->
+      <path d="M -6,4 L 6,4 L 10,28 L -10,28 Z" fill="#ffffff"/>
+      <!-- Coat tails & stance -->
+      <path d="M -10,28 L -14,32 L -6,31 M 10,28 L 14,32 L 6,31" stroke="#ffffff" stroke-width="1.5"/>
+      <!-- Legs -->
+      <line x1="-3" y1="28" x2="-3" y2="38" stroke="#ffffff" stroke-width="2.5"/>
+      <line x1="3" y1="28" x2="3" y2="38" stroke="#ffffff" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <!-- RIGHT FLANK: VLSI & HARDWARE REGISTER MAP TERMINAL -->
+  <g transform="translate(730, 60)">
+    <rect x="0" y="0" width="200" height="205" fill="#05070a" stroke="#ffffff" stroke-width="1.2"/>
+    <rect x="0" y="0" width="200" height="24" fill="#ffffff"/>
+    <text x="10" y="16" font-family="'Courier New', monospace" font-size="9" font-weight="900" fill="#0d1117">VERILOG RTL REGISTERS</text>
+
+    <g transform="translate(10, 36)" font-family="'Courier New', monospace" font-size="8" fill="#ffffff">
+      <text x="0" y="8" fill="#8b949e">// STATUS REG</text>
+      <text x="0" y="19">0x00: REG_STATE [0x01]</text>
+      <text x="0" y="30">0x04: CLK_DIV   [50MHz]</text>
+      <text x="0" y="41">0x08: ADC_RAW   [12-bit]</text>
+      
+      <text x="0" y="60" fill="#8b949e">// VERILOG MODULE</text>
+      <text x="0" y="71">module soc_top (</text>
+      <text x="12" y="82">input  wire clk,</text>
+      <text x="12" y="93">input  wire rst_n,</text>
+      <text x="12" y="104">output reg  tx_valid</text>
+      <text x="0" y="115">);</text>
+
+      <text x="0" y="135" fill="#8b949e">// SYNTHESIS TARGET</text>
+      <text x="0" y="146">Process: 45nm CMOS</text>
+      <text x="0" y="157">Timing: MET (Slack: +0.4ns)</text>
+    </g>
+  </g>
+</svg>

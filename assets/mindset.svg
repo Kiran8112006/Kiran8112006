@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="100%" height="100%">
+  <defs>
+    <!-- Screentone Patterns -->
+    <pattern id="chess-hatch" width="8" height="8" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="8" y2="8" stroke="#ffffff" stroke-width="0.75" opacity="0.15"/>
+    </pattern>
+    <pattern id="mind-dots" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#ffffff" opacity="0.2"/>
+    </pattern>
+    <linearGradient id="spotlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="250" fill="#0d1117"/>
+  <rect width="960" height="250" fill="url(#mind-dots)"/>
+
+  <!-- Manga Frame -->
+  <rect x="8" y="8" width="944" height="234" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="12" y="12" width="936" height="226" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- TOP HEADER / MASTERMIND PROTOCOL CALLOUT -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="14" height="14" fill="#ffffff"/>
+    <text x="22" y="11" font-family="'Courier New', monospace" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="2">05 // COGNITIVE ARCHITECTURE // MENTAL NOTES</text>
+    <text x="420" y="11" font-family="'Courier New', monospace" font-size="9" fill="#8b949e" letter-spacing="1.5">CLASSROOM OF THE ELITE × THE MENTALIST · OSCILLOSCOPE SIGNALS</text>
+  </g>
+
+  <!-- LEFT FLANK: PERSPECTIVE CHESSBOARD & NOIR CHESS PIECES -->
+  <g transform="translate(45, 60)">
+    <!-- Isometric / Perspective Chess Grid -->
+    <g transform="translate(0, 40)">
+      <!-- Board plane -->
+      <polygon points="120,-30 290,-30 390,110 20,110" fill="#05070a" stroke="#ffffff" stroke-width="1.5"/>
+      
+      <!-- Checkerboard squares -->
+      <polygon points="120,-30 162,-30 112,110 20,110" fill="url(#chess-hatch)"/>
+      <polygon points="204,-30 246,-30 298,110 205,110" fill="url(#chess-hatch)"/>
+      
+      <line x1="95" y1="5" x2="315" y2="5" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+      <line x1="70" y1="40" x2="340" y2="40" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+      <line x1="45" y1="75" x2="365" y2="75" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+
+      <line x1="162" y1="-30" x2="112" y2="110" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+      <line x1="204" y1="-30" x2="205" y2="110" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+      <line x1="246" y1="-30" x2="298" y2="110" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+    </g>
+
+    <!-- Chess Piece 1: The King (Calculated Mastermind Piece) -->
+    <g transform="translate(205, 50)">
+      <!-- Cross finial -->
+      <path d="M 0,-32 L 0,-22 M -5,-27 L 5,-27" stroke="#ffffff" stroke-width="2"/>
+      <!-- Crown top -->
+      <path d="M -14,-18 C -14,-24 14,-24 14,-18 C 10,-12 -10,-12 -14,-18 Z" fill="#ffffff"/>
+      <!-- Body column -->
+      <path d="M -10,-12 L -7,18 L 7,18 L 10,-12 Z" fill="#0d1117" stroke="#ffffff" stroke-width="1.5"/>
+      <!-- Neck ring -->
+      <line x1="-12" y1="-12" x2="12" y2="-12" stroke="#ffffff" stroke-width="2"/>
+      <!-- Base pedestal -->
+      <polygon points="-16,18 16,18 20,28 -20,28" fill="#ffffff"/>
+      <!-- Screentone shadow -->
+      <polygon points="-6,-12 -4,18 4,18 6,-12" fill="url(#mind-dots)"/>
+    </g>
+
+    <!-- Chess Piece 2: The Knight (Tactical Deviation) -->
+    <g transform="translate(130, 75)">
+      <!-- Horse head & mane -->
+      <path d="M -15,10 C -18,-5 -15,-20 0,-25 C 10,-22 18,-15 15,-5 C 12,0 8,5 12,10 L 14,20 L -14,20 Z" fill="#ffffff"/>
+      <!-- Eye notch & muzzle slit -->
+      <circle cx="-2" cy="-14" r="1.5" fill="#0d1117"/>
+      <line x1="-12" y1="-2" x2="-6" y2="4" stroke="#0d1117" stroke-width="1.5"/>
+      <!-- Base -->
+      <polygon points="-16,20 16,20 18,26 -18,26" fill="#161b22" stroke="#ffffff" stroke-width="1.2"/>
+    </g>
+
+    <!-- Chess Piece 3: Toppled Pawn (Defeated noise / obstacle) -->
+    <g transform="translate(280, 115) rotate(70)">
+      <!-- Pawn ball & body -->
+      <circle cx="0" cy="-12" r="6" fill="#8b949e"/>
+      <path d="M -5,-6 L -7,10 L 7,10 L 5,-6 Z" fill="#161b22" stroke="#ffffff" stroke-width="1"/>
+      <polygon points="-10,10 10,10 12,16 -12,16" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <!-- CENTER: OSCILLOSCOPE BRAINWAVE & COGNITIVE TELEMETRY WAVEFORMS -->
+  <g transform="translate(460, 55)">
+    <!-- Waveform Screen Frame -->
+    <rect x="0" y="0" width="240" height="165" fill="#05070a" stroke="#ffffff" stroke-width="1.2"/>
+    
+    <!-- Screen Reticle Grid -->
+    <line x1="120" y1="0" x2="120" y2="165" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.3"/>
+    <line x1="0" y1="82" x2="240" y2="82" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.3"/>
+
+    <!-- Sharp Cognitive Sine / Pulse Waveform -->
+    <path d="M 0,82 
+             L 25,82 
+             Q 35,82 40,60 
+             Q 45,35 50,82 
+             L 65,82 
+             L 75,95 
+             L 85,25 
+             L 95,140 
+             L 105,50 
+             L 115,110 
+             L 125,82 
+             L 150,82 
+             Q 160,82 170,72 
+             Q 180,62 190,82 
+             L 240,82" 
+          fill="none" stroke="#ffffff" stroke-width="1.8"/>
+
+    <!-- Ghost Harmonic Waveform -->
+    <path d="M 0,82 Q 30,55 60,82 T 120,82 T 180,82 T 240,82" fill="none" stroke="#8b949e" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.5"/>
+
+    <!-- Frequency Spectrum Bars at bottom -->
+    <g transform="translate(15, 125)" fill="#ffffff" opacity="0.7">
+      <rect x="0" y="16" width="6" height="12"/>
+      <rect x="10" y="10" width="6" height="18"/>
+      <rect x="20" y="4" width="6" height="24"/>
+      <rect x="30" y="0" width="6" height="28"/>
+      <rect x="40" y="8" width="6" height="20"/>
+      <rect x="50" y="14" width="6" height="14"/>
+      <rect x="60" y="20" width="6" height="8"/>
+    </g>
+
+    <text x="12" y="20" font-family="'Courier New', monospace" font-size="8" fill="#8b949e">COGNITIVE_FREQ: 40Hz (GAMMA)</text>
+    <text x="12" y="32" font-family="'Courier New', monospace" font-size="8" fill="#ffffff">SIGNAL-TO-NOISE: MAX</text>
+  </g>
+
+  <!-- RIGHT FLANK: THE MENTALIST AXIOM MANGA CARD -->
+  <g transform="translate(720, 55)">
+    <rect x="0" y="0" width="215" height="165" fill="#05070a" stroke="#ffffff" stroke-width="1.2"/>
+    <rect x="0" y="0" width="215" height="24" fill="#ffffff"/>
+    <text x="10" y="16" font-family="'Courier New', monospace" font-size="9" font-weight="900" fill="#0d1117">AYANOKŌJI × JANE</text>
+
+    <g transform="translate(12, 38)" font-family="'Courier New', monospace" font-size="8" fill="#ffffff">
+      <text x="0" y="8" fill="#8b949e">[TACTICAL MANDATE]</text>
+      <text x="0" y="22">"In engineering as</text>
+      <text x="0" y="34"> in strategy: strip</text>
+      <text x="0" y="46"> away illusions.</text>
+      <text x="0" y="64" fill="#8b949e">[EXECUTION METRIC]</text>
+      <text x="0" y="78">Observe telemetry.</text>
+      <text x="0" y="90">Calculate edge-cases.</text>
+      <text x="0" y="102">Execute with zero lag."</text>
+    </g>
+
+    <!-- Bottom Hash -->
+    <rect x="12" y="150" width="191" height="4" fill="#ffffff"/>
+  </g>
+</svg>

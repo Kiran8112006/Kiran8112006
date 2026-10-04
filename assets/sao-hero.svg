@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="100%">
+  <defs>
+    <!-- Screentone / Halftone Pattern -->
+    <pattern id="screentone-dots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.8" fill="#ffffff" opacity="0.18"/>
+    </pattern>
+    <pattern id="screentone-dense" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.9" fill="#ffffff" opacity="0.28"/>
+    </pattern>
+    <pattern id="crosshatch" width="8" height="8" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="8" y2="8" stroke="#ffffff" stroke-width="0.75" opacity="0.12"/>
+      <line x1="8" y1="0" x2="0" y2="8" stroke="#ffffff" stroke-width="0.75" opacity="0.12"/>
+    </pattern>
+    <linearGradient id="sky-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="60%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="cloud-fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wireframe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="300" fill="url(#sky-dark)"/>
+  <rect width="960" height="300" fill="url(#screentone-dots)"/>
+
+  <!-- Border Frame (Manga Panel Style) -->
+  <rect x="8" y="8" width="944" height="284" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="12" y="12" width="936" height="276" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- Corner Crop / Panel Registration Marks -->
+  <line x1="16" y1="16" x2="36" y2="16" stroke="#ffffff" stroke-width="2"/>
+  <line x1="16" y1="16" x2="16" y2="36" stroke="#ffffff" stroke-width="2"/>
+  <line x1="944" y1="16" x2="924" y2="16" stroke="#ffffff" stroke-width="2"/>
+  <line x1="944" y1="16" x2="944" y2="36" stroke="#ffffff" stroke-width="2"/>
+  <line x1="16" y1="284" x2="36" y2="284" stroke="#ffffff" stroke-width="2"/>
+  <line x1="16" y1="284" x2="16" y2="264" stroke="#ffffff" stroke-width="2"/>
+  <line x1="944" y1="284" x2="924" y2="284" stroke="#ffffff" stroke-width="2"/>
+  <line x1="944" y1="284" x2="944" y2="264" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Ambient Manga Constellations & Ink Flecks -->
+  <g fill="#ffffff">
+    <circle cx="80" cy="45" r="1" opacity="0.5"/>
+    <circle cx="140" cy="85" r="1.5" opacity="0.8"/>
+    <circle cx="210" cy="38" r="0.8" opacity="0.4"/>
+    <circle cx="310" cy="72" r="1.2" opacity="0.6"/>
+    <circle cx="390" cy="40" r="1.8" opacity="0.9"/>
+    <circle cx="580" cy="35" r="1" opacity="0.6"/>
+    <circle cx="670" cy="65" r="1.4" opacity="0.7"/>
+    <circle cx="760" cy="42" r="0.8" opacity="0.5"/>
+    <circle cx="840" cy="80" r="1.6" opacity="0.85"/>
+    <circle cx="890" cy="35" r="1.1" opacity="0.6"/>
+    <!-- Cross stars -->
+    <path d="M 140,81 L 140,89 M 136,85 L 144,85" stroke="#ffffff" stroke-width="0.75" opacity="0.7"/>
+    <path d="M 840,76 L 840,84 M 836,80 L 844,80" stroke="#ffffff" stroke-width="0.75" opacity="0.7"/>
+  </g>
+
+  <!-- Speed Lines & Atmospheric Perspective (Top Angles) -->
+  <g stroke="#ffffff" stroke-width="0.6" opacity="0.12">
+    <line x1="20" y1="20" x2="350" y2="130"/>
+    <line x1="120" y1="16" x2="400" y2="135"/>
+    <line x1="940" y1="20" x2="610" y2="130"/>
+    <line x1="840" y1="16" x2="560" y2="135"/>
+    <line x1="480" y1="14" x2="480" y2="60"/>
+  </g>
+
+  <!-- Giant SAO Wireframe Celestial Moon / System Compass Ring Behind Aincrad -->
+  <g transform="translate(480, 130)">
+    <circle cx="0" cy="0" r="92" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="3, 3" opacity="0.2"/>
+    <circle cx="0" cy="0" r="82" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.25"/>
+    <circle cx="0" cy="0" r="76" fill="url(#crosshatch)" opacity="0.35"/>
+    <!-- Compass ticks -->
+    <line x1="0" y1="-95" x2="0" y2="-88" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="95" x2="0" y2="88" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-95" y1="0" x2="-88" y2="0" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="95" y1="0" x2="88" y2="0" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <text x="0" y="-102" font-family="'Courier New', monospace" font-size="8" fill="#ffffff" opacity="0.5" text-anchor="middle" letter-spacing="2">SYSTEM_CLOCK // MIDNIGHT_HORIZON</text>
+  </g>
+
+  <!-- FLOATING AINCRAD CITADEL (Layered Manga Ink Silhouette) -->
+  <g transform="translate(480, 135)">
+    <!-- Base Screentone Under-Shading -->
+    <polygon points="-120,40 -90,75 -40,105 0,118 40,105 90,75 120,40 100,20 -100,20" fill="url(#screentone-dense)"/>
+
+    <!-- Bottom Inverted Tiers / Roots of the Floating Citadel -->
+    <polygon points="-110,40 -80,72 -35,100 0,112 35,100 80,72 110,40 85,25 -85,25" fill="#05070a" stroke="#ffffff" stroke-width="1.2"/>
+    
+    <!-- Buttress ribs & inverted spires -->
+    <path d="M 0,25 L 0,112 M -35,25 L -35,100 M 35,25 L 35,100 M -65,25 L -65,82 M 65,25 L 65,82" stroke="#ffffff" stroke-width="0.8" opacity="0.4"/>
+    <path d="M -80,45 L 0,85 L 80,45 M -100,32 L 0,65 L 100,32" stroke="#ffffff" stroke-width="0.6" opacity="0.35"/>
+    <polygon points="-8,112 0,128 8,112" fill="#ffffff"/>
+
+    <!-- Mid Tier Bastions & Walls -->
+    <polygon points="-125,25 -105,-10 105,-10 125,25 90,32 -90,32" fill="#0d1117" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- Screentone on Mid-section -->
+    <polygon points="-100,20 -85,-5 85,-5 100,20" fill="url(#screentone-dots)"/>
+    <!-- Architecture Windows / Castle crenellations -->
+    <g fill="#ffffff" opacity="0.9">
+      <rect x="-95" y="8" width="6" height="3"/>
+      <rect x="-80" y="8" width="6" height="3"/>
+      <rect x="-65" y="8" width="6" height="3"/>
+      <rect x="-50" y="8" width="6" height="3"/>
+      <rect x="-35" y="8" width="6" height="3"/>
+      <rect x="-20" y="8" width="6" height="3"/>
+      <rect x="-5" y="8" width="10" height="3"/>
+      <rect x="15" y="8" width="6" height="3"/>
+      <rect x="30" y="8" width="6" height="3"/>
+      <rect x="45" y="8" width="6" height="3"/>
+      <rect x="60" y="8" width="6" height="3"/>
+      <rect x="75" y="8" width="6" height="3"/>
+      <rect x="90" y="8" width="6" height="3"/>
+    </g>
+
+    <!-- Upper Citadel Cone & Spire Slabs -->
+    <polygon points="-85,-10 -60,-40 60,-40 85,-10" fill="#05070a" stroke="#ffffff" stroke-width="1.2"/>
+    <polygon points="-55,-40 -35,-65 35,-65 55,-40" fill="#0d1117" stroke="#ffffff" stroke-width="1.2"/>
+    <polygon points="-30,-65 -15,-85 15,-85 30,-65" fill="#05070a" stroke="#ffffff" stroke-width="1.2"/>
+    <!-- Spire Needle Tip (Ruby Palace / Floor 100) -->
+    <polygon points="-6,-85 0,-108 6,-85" fill="#ffffff" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="-108" x2="0" y2="-120" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="0" cy="-120" r="2.5" fill="#ffffff"/>
+
+    <!-- Aincrad Manga Hatching Shading (Left side shadow) -->
+    <path d="M -85,-10 L -60,-40 L -35,-65 L -15,-85 L 0,-108 L 0,112 L -35,100 L -80,72 L -110,40 Z" fill="#ffffff" opacity="0.06"/>
+    
+    <!-- Detached Floating Island fragments (debris / orbit) -->
+    <polygon points="-140,10 -130,5 -128,15 -138,18" fill="#ffffff"/>
+    <polygon points="-160,35 -152,30 -150,42" fill="#ffffff" opacity="0.8"/>
+    <polygon points="142,8 152,3 155,12 145,15" fill="#ffffff"/>
+    <polygon points="168,28 175,22 178,32" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- Screentone Cloud Banks drift around Aincrad -->
+  <g fill="#ffffff" opacity="0.12">
+    <ellipse cx="280" cy="180" rx="90" ry="12"/>
+    <ellipse cx="360" cy="190" rx="110" ry="14"/>
+    <ellipse cx="600" cy="185" rx="120" ry="15"/>
+    <ellipse cx="690" cy="175" rx="80" ry="11"/>
+  </g>
+
+  <!-- Distant Mountain Ridge / Horizon Line at bottom -->
+  <polygon points="8,260 90,230 170,250 250,225 340,248 420,235 480,245 560,230 650,250 740,220 830,245 952,228 952,292 8,292" fill="#05070a" stroke="#ffffff" stroke-width="1"/>
+  <polygon points="8,272 130,252 240,268 390,254 530,265 680,248 810,265 952,250 952,292 8,292" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- Left HUD / Identity Manga Box -->
+  <g transform="translate(32, 32)">
+    <rect x="0" y="0" width="220" height="42" fill="#0d1117" stroke="#ffffff" stroke-width="1.2"/>
+    <rect x="4" y="4" width="212" height="34" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <text x="12" y="18" font-family="'Courier New', monospace" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="2">AINCRAD // FL-100</text>
+    <text x="12" y="31" font-family="'Courier New', monospace" font-size="8.5" fill="#8b949e" letter-spacing="1">LOC: 12.9716° N, 77.5946° E</text>
+  </g>
+
+  <!-- Right HUD / Player Health / Telemetry Indicator -->
+  <g transform="translate(710, 32)">
+    <rect x="0" y="0" width="218" height="42" fill="#0d1117" stroke="#ffffff" stroke-width="1.2"/>
+    <rect x="4" y="4" width="210" height="34" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <text x="12" y="18" font-family="'Courier New', monospace" font-size="10" font-weight="900" fill="#ffffff" letter-spacing="1.5">HP [████████████] 100%</text>
+    <text x="12" y="31" font-family="'Courier New', monospace" font-size="8.5" fill="#8b949e" letter-spacing="1">BIT.EIE // CGPA: 9.14 // S4</text>
+  </g>
+
+  <!-- Bottom Terminal Header Tag -->
+  <g transform="translate(480, 274)">
+    <rect x="-180" y="-12" width="360" height="20" fill="#0d1117" stroke="#ffffff" stroke-width="1"/>
+    <text x="0" y="2" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="3">// MIDNIGHT HORIZON PROTOCOL //</text>
+  </g>
+</svg>
