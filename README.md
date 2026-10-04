@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/sao-hero.png" width="100%" alt="Sword Art Online Aincrad Horizon" />
+<img src="./assets/sao-hero.png" width="100%" alt="Sword Art Online Aincrad Horizon" style="border-radius: 8px;" />
+
+<br /><br />
 
 # V S KIRAN
 
@@ -8,7 +10,7 @@
 
 `software` &nbsp;·&nbsp; `electronics` &nbsp;·&nbsp; `ML` &nbsp;·&nbsp; `VLSI`
 
-building things and figuring out why they work.
+*building things and figuring out why they work.*
 
 <br />
 
@@ -16,97 +18,136 @@ building things and figuring out why they work.
 
 </div>
 
-<br /><br />
+<br />
 
-<p align="center">
-  <img src="./assets/horimiya.png" width="460" alt="Horimiya quiet study desk" />
-</p>
+---
 
-### about
+<br />
 
-I'm Kiran, an Electronics &amp; Instrumentation Engineering student at Bangalore Institute of Technology (2024–2028, CGPA: 9.14 through Semester 4).
+<table>
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/horimiya.png" width="100%" alt="Horimiya quiet study desk" style="border-radius: 6px;" />
+    </td>
+    <td width="58%" valign="middle">
+      <h3>about me</h3>
+      <p>I'm Kiran, an Electronics &amp; Instrumentation Engineering student at Bangalore Institute of Technology (2024–2028, CGPA: 9.14 through Semester 4).</p>
+      <p>I like moving between software, electronics, and sensor-based projects, and lately I've been getting more interested in VLSI and semiconductor technology.</p>
+      <p><strong>Coursework:</strong> Digital System Design &amp; Verilog, Analog Circuits, Embedded Controllers, Signal Conditioning &amp; Data Acquisition, Measurement &amp; Transducers.</p>
+    </td>
+  </tr>
+</table>
 
-I like moving between software, electronics, and sensor-based projects, and lately I've been getting more interested in VLSI and semiconductor technology.
+<br />
 
-My coursework covers:
-- Digital System Design &amp; Verilog
-- Analog Electronic Circuits
-- Embedded Controllers
-- Signal Conditioning &amp; Data Acquisition Circuits
-- Measurement &amp; Transducers
-
-When I'm not studying or building things, I'm usually reading dark manga or following mystery thrillers.
-
-<br /><br />
-
-<div align="center">
-  <img src="./assets/aot-projects.png" width="100%" alt="Survey Corps reconnaissance" />
-</div>
+---
 
 <br />
 
 ### projects
 
-**RoadSOS**  
-A sensor-driven accident detection and emergency response system combining smartphone accelerometer and gyroscope telemetry with machine-learning-based detection, live location, emergency alerts, and backend services. Currently an active prototype receiving further upgrades.  
-*Python, C++, JavaScript, Node.js*
+<table>
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/roadsos.png" width="100%" alt="RoadSOS field reconnaissance" style="border-radius: 6px;" />
+    </td>
+    <td width="58%" valign="middle">
+      <h3>RoadSOS</h3>
+      <p>A sensor-driven accident detection and emergency response system combining smartphone accelerometer and gyroscope telemetry with machine-learning-based detection, live location, emergency alerts, and backend services. Currently receiving further upgrades.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="58%" valign="middle">
+      <h3>GridSenti</h3>
+      <p>An intelligent fault detection system focused on high-impedance and difficult-to-detect faults in electrical distribution networks using electrical telemetry, data-driven analysis, rule-based detection, and machine learning.</p>
+    </td>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/aot-projects.png" width="100%" alt="GridSenti network telemetry" style="border-radius: 6px;" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/hireloop.png" width="100%" alt="HireLoop workflow path" style="border-radius: 6px;" />
+    </td>
+    <td width="58%" valign="middle">
+      <h3>HireLoop</h3>
+      <p>A campus recruitment platform connecting students, recruiters, and placement coordinators through application tracking, hiring-drive management, candidate workflows, and centralized recruitment oversight.</p>
+    </td>
+  </tr>
+</table>
 
 <br />
 
-**GridSenti**  
-An intelligent fault detection system focused on high-impedance and difficult-to-detect faults in electrical distribution networks using electrical telemetry, data-driven analysis, rule-based detection, and machine learning.  
-*Python, C, C++*
+---
 
 <br />
 
-**HireLoop**  
-A campus recruitment platform designed for students, recruiters, and placement coordinators. Students can create resumes, showcase projects, and track applications; recruiters can review profiles, manage hiring drives, and schedule interviews; coordinators get centralized tracking, notifications, and organized recruitment audit records.  
-*React, Next.js, Node.js, JavaScript, HTML, CSS*
+<table>
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/blue-lock.png" width="100%" alt="Blue Lock explosive speed" style="border-radius: 6px;" />
+    </td>
+    <td width="58%" valign="middle">
+      <h3>reva hackathon</h3>
+      <p><strong>Runner-up — REVA Hackathon.</strong></p>
+      <p><em>one of those weekends where sleep becomes optional.</em></p>
+    </td>
+  </tr>
+</table>
 
-<br /><br />
+<br />
 
-<p align="center">
-  <img src="./assets/blue-lock.png" width="420" alt="Blue Lock explosive speed" />
-</p>
+---
 
-### reva hackathon
+<br />
 
-Runner-up — REVA Hackathon.
+<table>
+  <tr>
+    <td width="58%" valign="middle">
+      <h3>currently exploring</h3>
+      <p><strong>VLSI &amp; Semiconductor Technology</strong></p>
+      <p>Still very much in the learning arc.</p>
+      <p>Exploring digital design fundamentals, Verilog HDL, and semiconductor technology down at the transistor gate level.</p>
+    </td>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/solo-leveling.png" width="100%" alt="Solo Leveling shadow monarch" style="border-radius: 6px;" />
+    </td>
+  </tr>
+</table>
 
-One of those weekends where sleep becomes optional.
+<br />
 
-<br /><br />
+---
 
-<p align="center">
-  <img src="./assets/solo-leveling.png" width="420" alt="Solo Leveling shadow monarch" />
-</p>
+<br />
 
-### vlsi & semiconductor technology
+<table>
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/mindset.png" width="100%" alt="Contemplative chess reflection" style="border-radius: 6px;" />
+    </td>
+    <td width="58%" valign="middle">
+      <h3>mental notes</h3>
+      <p>• observe before assuming.</p>
+      <p>• understand the system before trying to fix it.</p>
+      <p>• look for the pattern before chasing the answer.</p>
+    </td>
+  </tr>
+</table>
 
-Currently exploring VLSI and semiconductor technology—still very much in the learning arc.
+<br />
 
-Coming from coursework in Digital System Design and Analog Circuits, I'm interested in learning more about:
-- Digital design fundamentals and Verilog HDL
-- How logic gates actually translate down to physical silicon
-- Interfacing physical transducers and signal acquisition circuits with digital logic
+---
 
-<br /><br />
+<br />
 
-<p align="center">
-  <img src="./assets/mindset.png" width="420" alt="Contemplative chess reflection" />
-</p>
-
-### mental notes
-
-A few quiet things I keep in mind when working on hard problems:
-
-- Observe before assuming. Look at the raw data or signal before guessing.
-- Understand the system before trying to fix it.
-- Look for the pattern before chasing the answer.
-- Hardware keeps you honest—physics doesn't care about your intentions.
-- The best systems feel quiet and simple.
-
-<br /><br />
+<div align="center">
 
 ### things i actually use
 
@@ -115,8 +156,6 @@ A few quiet things I keep in mind when working on hard problems:
 <br /><br />
 
 ### activity
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake-dark.svg" />
