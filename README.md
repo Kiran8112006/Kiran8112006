@@ -12,23 +12,30 @@ building things and figuring out why they work.
 
 <br />
 
-[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;•&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;•&nbsp; Bangalore Institute of Technology
+[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;·&nbsp; [vskiran53@gmail.com](mailto:vskiran53@gmail.com)
 
 </div>
 
 <br /><br />
 
 <p align="center">
-  <img src="./assets/horimiya.png" width="460" alt="Horimiya quiet desk" />
+  <img src="./assets/horimiya.png" width="460" alt="Horimiya quiet study desk" />
 </p>
 
 ### about
 
-I'm an Electronics &amp; Instrumentation Engineering undergraduate at Bangalore Institute of Technology (2024–2028, CGPA: 9.14).
+I'm Kiran, an Electronics &amp; Instrumentation Engineering student at Bangalore Institute of Technology (2024–2028, CGPA: 9.14 through Semester 4).
 
-I spend most of my time around the boundary where circuits meet software. I'm drawn to physical sensors, analog signal conditioning, and low-level digital logic, but I also build full-stack web applications and backend telemetry pipelines. Lately, that interest has been pulling me toward VLSI and semiconductor technology.
+I like moving between software, electronics, and sensor-based projects, and lately I've been getting more interested in VLSI and semiconductor technology.
 
-When I'm not studying or coding, I'm usually reading dark manga, following mystery thrillers, or building things late at night.
+My coursework covers:
+- Digital System Design &amp; Verilog
+- Analog Electronic Circuits
+- Embedded Controllers
+- Signal Conditioning &amp; Data Acquisition Circuits
+- Measurement &amp; Transducers
+
+When I'm not studying or building things, I'm usually reading dark manga or following mystery thrillers.
 
 <br /><br />
 
@@ -41,19 +48,19 @@ When I'm not studying or coding, I'm usually reading dark manga, following myste
 ### projects
 
 **RoadSOS**  
-A sensor-driven accident detection and emergency response system. It monitors real-time accelerometer and gyroscope streams from mobile telemetry, uses pattern recognition to flag sudden impact anomalies, and coordinates emergency alerts with live location data.  
+A sensor-driven accident detection and emergency response system combining smartphone accelerometer and gyroscope telemetry with machine-learning-based detection, live location, emergency alerts, and backend services. Currently an active prototype receiving further upgrades.  
 *Python, C++, JavaScript, Node.js*
 
 <br />
 
 **GridSenti**  
-An exploratory telemetry pipeline targeting high-impedance faults on electrical distribution lines—abnormal faults that draw too little current to trip standard threshold breakers but pose severe hazards. Combines continuous electrical telemetry with rule-based heuristics and ML fault classification.  
+An intelligent fault detection system focused on high-impedance and difficult-to-detect faults in electrical distribution networks using electrical telemetry, data-driven analysis, rule-based detection, and machine learning.  
 *Python, C, C++*
 
 <br />
 
 **HireLoop**  
-A campus recruitment platform built to replace fragmented spreadsheets and scattered drives. Synchronizes student portfolios and live application states, recruiter drive schedules and evaluation rubrics, and placement coordinator audit workflows in one place.  
+A campus recruitment platform designed for students, recruiters, and placement coordinators. Students can create resumes, showcase projects, and track applications; recruiters can review profiles, manage hiring drives, and schedule interviews; coordinators get centralized tracking, notifications, and organized recruitment audit records.  
 *React, Next.js, Node.js, JavaScript, HTML, CSS*
 
 <br /><br />
@@ -64,9 +71,9 @@ A campus recruitment platform built to replace fragmented spreadsheets and scatt
 
 ### reva hackathon
 
-Runner-Up at the REVA Hackathon.
+Runner-up — REVA Hackathon.
 
-48 hours of rapid prototyping, sensor telemetry calibration, and fixing race conditions minutes before the demo. One of those weekends where sleep becomes optional and you find out what you can actually build under pressure.
+One of those weekends where sleep becomes optional.
 
 <br /><br />
 
@@ -74,16 +81,14 @@ Runner-Up at the REVA Hackathon.
   <img src="./assets/solo-leveling.png" width="420" alt="Solo Leveling shadow monarch" />
 </p>
 
-### vlsi & the silicon arc
+### vlsi & semiconductor technology
 
-Still very much in the learning arc.
+Currently exploring VLSI and semiconductor technology—still very much in the learning arc.
 
-Going beneath the software abstraction layer into raw hardware:
-- Digital system design and synchronous state machines in **Verilog HDL**
-- **Semiconductor physics**, CMOS logic gates, setup and hold timing, propagation delays
-- Interfacing analog sensor conditioning circuits with digital logic
-
-No claims of mastery—just genuine fascination with what happens at the transistor level.
+Coming from coursework in Digital System Design and Analog Circuits, I'm interested in learning more about:
+- Digital design fundamentals and Verilog HDL
+- How logic gates actually translate down to physical silicon
+- Interfacing physical transducers and signal acquisition circuits with digital logic
 
 <br /><br />
 
@@ -95,7 +100,7 @@ No claims of mastery—just genuine fascination with what happens at the transis
 
 A few quiet things I keep in mind when working on hard problems:
 
-- Observe before assuming. When a circuit or a program fails, look at the raw signal first.
+- Observe before assuming. Look at the raw data or signal before guessing.
 - Understand the system before trying to fix it.
 - Look for the pattern before chasing the answer.
 - Hardware keeps you honest—physics doesn't care about your intentions.
@@ -103,11 +108,9 @@ A few quiet things I keep in mind when working on hard problems:
 
 <br /><br />
 
-### loadout
+### things i actually use
 
-Tools and languages I actively use:
-
-`C` &nbsp;·&nbsp; `C++` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `JavaScript` &nbsp;·&nbsp; `React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `Node.js` &nbsp;·&nbsp; `HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `Git` &nbsp;·&nbsp; `GitHub`
+`C` &nbsp;·&nbsp; `C++` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `JavaScript` &nbsp;·&nbsp; `React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `Node.js` &nbsp;·&nbsp; `Git` &nbsp;·&nbsp; `GitHub`
 
 <br /><br />
 
