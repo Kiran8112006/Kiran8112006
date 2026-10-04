@@ -1,167 +1,176 @@
 <div align="center">
 
-<img src="./assets/sao-hero.png" width="100%" alt="Sword Art Online Midnight Aincrad Citadel" style="border-radius: 8px;" />
+<img src="./assets/sao-hero.png" width="100%" alt="Sword Art Online Aincrad Horizon" style="border-radius: 8px;" />
 
-# V S KIRAN
+<br /><br />
 
-**Electronics & Instrumentation Engineering Student**  
-Bangalore Institute of Technology · 2024 – 2028
+# V S Kiran
 
-`software` &nbsp;·&nbsp; `electronics` &nbsp;·&nbsp; `ML` &nbsp;·&nbsp; `VLSI`
+Electronics &amp; Instrumentation Engineering &nbsp;·&nbsp; Bangalore Institute of Technology  
+*software, circuits, signals, and semiconductor physics.*
 
-*"building things and figuring out why they work."*
-
-<br />
-
-[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;•&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;•&nbsp; Bengaluru, India
+[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;·&nbsp; Bengaluru, India
 
 </div>
 
----
+<br />
 
-### ☕ chapter 01 // about me
+I'm an undergraduate at BIT Bangalore (2024–2028, CGPA 9.14 through Sem 4) building at the boundary where physical transducers meet software.
 
-<p align="center">
-  <img src="./assets/horimiya-about.png" width="420" alt="Horimiya quiet late-night study desk with rain outside" style="border-radius: 8px;" />
-</p>
+Most people pick a lane—either pure software or pure hardware. I like the awkward, messy space in between: sampling analog voltages, filtering sensor noise, writing low-level drivers, and building clean web interfaces so the data actually makes sense to someone.
 
-I'm Kiran, an Electronics & Instrumentation Engineering student who likes building things and figuring out how they work.
+When I'm away from breadboards and terminal windows, I'm usually reading dark manga, watching psychological thrillers, or getting roped into 48-hour hackathon sprints.
 
-I spend most of my time wandering between the physical side of hardware and the logic of software. I'm fascinated by transducers, physical sensors, and signal conditioning, but I also enjoy building clean web applications and telemetry pipelines. Recently, that curiosity has been pulling me deeper into digital design and semiconductor technology.
-
-A few facts about my trajectory:
-- **College:** Bangalore Institute of Technology (BIT Bangalore), graduating in 2028.
-- **Academic Index:** **9.14 CGPA** through Semester 4 (Class 12: 92.17%).
-- **Coursework that actually shapes how I think:**
-  - Digital System Design & Verilog
-  - Analog Electronic Circuits
-  - Embedded Controllers
-  - Signal Conditioning & Data Acquisition Circuits
-  - Measurement & Transducers
-
-When I step away from breadboards and VS Code, I'm usually reading dark manga, following psychological thrillers, or getting pulled into weekend hackathon sprints.
-
----
-
-### 🗺️ chapter 02 // projects & reconnaissance
+<br />
 
 <div align="center">
-  <img src="./assets/aot-projects.png" width="100%" alt="Attack on Titan Survey Corps Reconnaissance" style="border-radius: 8px;" />
+  <img src="./assets/horimiya-about.png" width="400" alt="Horimiya quiet desk at night" style="border-radius: 8px;" />
 </div>
 
 <br />
 
-I like engineering projects that deal with real-world messiness—noisy sensors, physical constraints, and systems where things don't always behave like a clean sandbox.
+### background & fundamentals
+
+A lot of the way I approach systems comes from my coursework in Instrumentation:
+- **Digital System Design & Verilog** — synchronous logic, state machines, timing constraints.
+- **Analog Circuits & Transducers** — op-amp conditioning, sensor bridges, ADC sampling.
+- **Embedded Controllers** — handling interrupts and hardware peripherals.
+
+If you understand the physical sensor that generated a signal, the software handling it becomes ten times simpler.
+
+<br />
 
 ---
 
-#### 🚗 RoadSOS
-*Sensor-driven accident detection and emergency response system*
+<br />
 
-```text
-mobile sensing ──> telemetry stream ──> intelligent detection ──> event handling ──> emergency alerts
-```
+<div align="center">
+  <img src="./assets/aot-projects.png" width="100%" alt="Survey Corps looking out over mountains" style="border-radius: 8px;" />
+</div>
 
-- **The Idea:** Modern luxury cars have automated impact detection, but two-wheelers and older vehicles don't. Since almost everyone carries a smartphone with high-grade inertial sensors, RoadSOS explores turning mobile telemetry into an active safety net.
-- **How it works:** Gathers continuous background accelerometer and gyroscope vectors, applies machine-learning pattern detection to distinguish actual high-G collision anomalies from everyday road bumps or dropped phones, and triggers location telemetry with emergency communication.
-- **Tech:** `Python`, `C++`, `JavaScript`, `Node.js`, `Git`, `GitHub`
-- **Current state:** Active prototype undergoing continuous testing and sensor threshold tuning.
+<br />
 
----
+### things i've been building
 
-#### ⚡ GridSenti
-*Intelligent fault detection for electrical distribution networks*
+I don't like building mock apps with fake data. I prefer problems where physical sensors, high-throughput pipelines, or messy institutional workflows have to be tamed.
 
-```text
-electrical telemetry ──> transient waveforms ──> rule-based heuristics & ML ──> fault classification
-```
+<br />
 
-- **The Idea:** High-impedance faults (HIFs) happen when a downed or damaged power line contacts high-resistance ground surfaces (like dry asphalt, soil, or tree branches). Because the current draw is small, standard overcurrent switches often don't trip—creating dangerous fire and shock hazards.
-- **How it works:** An exploratory monitoring pipeline combining electrical telemetry with rule-based heuristics and machine-learning fault identification to detect abnormal transients and subtle harmonic signatures that evade traditional relays.
-- **Tech:** `Python`, `C`, `C++`, `Git`, `GitHub`
-- **Current state:** Exploratory analysis, data modeling, and mathematical simulation.
+#### RoadSOS
+**Sensor-driven collision detection and emergency dispatch**
 
----
+Most modern cars have crash telemetry, but millions of two-wheelers and older vehicles have nothing. Everyone has a smartphone in their pocket with decent accelerometers and gyroscopes. 
 
-#### 🔄 HireLoop
-*Unified campus recruitment and coordination platform*
+RoadSOS runs continuous background IMU monitoring, uses pattern recognition to separate true high-G impact signatures from everyday road potholes or a dropped phone, and coordinates emergency alerts with live GPS telemetry.
 
-```text
-[ Students ]      ──> Profile & Project Logs ──┐
-[ Recruiters ]    ──> Drive & Interview Mgmt  ├──> Centralized Pipeline Engine
-[ Placement Cell] ──> Notifications & Audit   ──┘
-```
+*Stack:* `Python`, `C++`, `JavaScript`, `Node.js`  
+*Current state:* Working prototype undergoing sensor calibration and threshold tuning.
 
-- **The Idea:** Campus hiring drives in colleges are usually chaotic—scattered Google Forms, lost resumes, and placement coordinators juggling fragmented spreadsheets.
-- **How it works:** A unified platform designed around three distinct workflows:
-  - **Students:** Build verified project dossiers, track application states in real-time.
-  - **Recruiters:** Review candidate profiles, organize drive batches, schedule interviews.
-  - **Placement Coordinators:** Centralized bird's-eye tracking, automated workflow notifications, and tamper-proof audit records.
-- **Tech:** `React`, `Next.js`, `Node.js`, `JavaScript`, `HTML`, `CSS`, `Git`, `GitHub`
-- **Current state:** Functional web deployment currently being evaluated.
+<br />
 
----
+#### GridSenti
+**High-impedance fault identification on electrical distribution lines**
 
-### ⚡ chapter 03 // competitive sprint
+When a live overhead power line snaps and falls onto asphalt, dry soil, or tree limbs, the current draw is often too weak to trigger conventional substation breakers. The line stays energized on the ground—causing brush fires and electrocution hazards.
 
-<p align="center">
-  <img src="./assets/blue-lock-achievement.png" width="400" alt="Blue Lock explosive velocity sprint" style="border-radius: 8px;" />
-</p>
+GridSenti is an exploratory telemetry pipeline combining high-frequency electrical sampling with rule-based heuristics and ML fault classification to catch the subtle harmonic distortions that conventional relays miss.
 
-#### 🏆 Runner-Up — REVA Hackathon
+*Stack:* `Python`, `C`, `C++`  
+*Current state:* Exploratory modeling and mathematical simulation.
 
-One of those weekends where sleep becomes completely optional. 
+<br />
 
-48 continuous hours of rapid engineering, sensor calibration, real-time telemetry processing, and fixing race conditions minutes before the final presentation. Taking home 2nd place was a great reminder: strong fundamentals and relentless sprint velocity will always beat over-rehearsed slides.
+#### HireLoop
+**Campus recruitment coordination platform**
+
+Campus placement season in colleges is usually a mess of twenty conflicting WhatsApp groups, lost resume PDFs, and coordinators drowning in Google Sheets.
+
+I built HireLoop to give students, recruiters, and placement coordinators one synchronized surface: candidates manage live project logs and track application states, recruiters run structured review rubrics and schedule drives, and coordinators get an automated audit trail.
+
+*Stack:* `React`, `Next.js`, `Node.js`, `JavaScript`, `HTML`, `CSS`  
+*Current state:* Functional prototype being tested with sample recruitment drives.
+
+<br />
 
 ---
 
-### 🗡️ chapter 04 // the current quest: VLSI
+<br />
 
-<p align="center">
-  <img src="./assets/solo-leveling-learning.png" width="400" alt="Solo Leveling lone silhouette facing the shadow monarch" style="border-radius: 8px;" />
-</p>
+<div align="center">
+  <img src="./assets/blue-lock-achievement.png" width="380" alt="Blue Lock explosive kick" style="border-radius: 8px;" />
+</div>
 
-*"Still very much in the learning arc."*
+<br />
 
-Lately, I've been spending late nights going down the abstraction stack into **semiconductor technology and digital design**.
+### 48 hours without sleep // REVA Hackathon
 
-Software is fascinating, but there's something humbling about understanding what happens down at the transistor gates:
-- **Digital System Design:** RTL modeling in Verilog HDL, finite state machines (FSMs), and synchronous logic.
-- **Semiconductor Fundamentals:** CMOS logic gates, propagation delays, setup/hold constraints, and clock skew.
-- **Circuit Conditioning:** Bridging analog physical transducers with digital sampling circuits.
+We took **Runner-Up** at the REVA Hackathon.
 
-No mastery claims here—just genuine curiosity and lots of compile logs.
+Two straight days of caffeine, debugging race conditions in real-time sensor streams, and rewriting an event listener four minutes before the judges walked up to our desk. 
 
----
+Hackathons are great because you can't hide behind slides. The code either works under live load, or it doesn't. 
 
-### ♟️ chapter 05 // mental notes
-
-<p align="center">
-  <img src="./assets/mindset.png" width="400" alt="Quiet chess mastermind contemplation under desk lamp" style="border-radius: 8px;" />
-</p>
-
-A few quiet engineering principles I try to keep in mind:
-
-- **Observe before assuming.** When a circuit or a loop misbehaves, don't guess—check the signal, check the log, verify the ground truth.
-- **Understand the system before trying to fix it.** Adding more code to a problem you don't fully understand is just adding noise to noise.
-- **Look for the pattern before chasing the answer.** In telemetry, the loudest spike isn't always the root anomaly.
-- **Hardware keeps you honest.** Physical transducers don't care about your intentions; they only respond to physics.
-- **Simplicity is deliberate.** It's easy to make something complicated. It takes discipline to strip away the junk.
+<br />
 
 ---
 
-### 🎒 things i actually use
+<br />
 
-No fake proficiency percentages. Just the languages and tools I write code with regularly:
+<div align="center">
+  <img src="./assets/solo-leveling-learning.png" width="380" alt="Solo Leveling silhouette" style="border-radius: 8px;" />
+</div>
 
-- **Languages:** `C` &nbsp;·&nbsp; `C++` &nbsp;·&nbsp; `Python`
-- **Web & Backend:** `HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `JavaScript` &nbsp;·&nbsp; `React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `Node.js`
-- **Tools & Workflow:** `Git` &nbsp;·&nbsp; `GitHub`
+<br />
+
+### the silicon arc
+
+Lately, I've been spending late nights going deeper down the stack into **VLSI and semiconductor technology**.
+
+Writing software is fun, but there's something humbling about understanding what's happening at the transistor level:
+- Writing RTL modules in **Verilog HDL** and synthesizing state machines.
+- Learning **CMOS logic**, propagation delays, setup/hold times, and clock distribution.
+- Understanding how physical silicon switches states in fractions of a nanosecond.
+
+Still very much at the beginning of this learning curve, but it's where my curiosity is pulling me.
+
+<br />
 
 ---
 
-### 📈 activity
+<br />
+
+<div align="center">
+  <img src="./assets/mindset.png" width="380" alt="Quiet chess reflection" style="border-radius: 8px;" />
+</div>
+
+<br />
+
+### mental notes
+
+A few quiet things I've noticed while debugging circuits and code late at night:
+
+- *Check the ground truth first.* When a sensor reading looks crazy or a loop hangs, don't guess. Pull up the raw log, check the voltage with a multimeter, verify the baseline.
+- *Adding code rarely fixes a conceptual bug.* If you don't understand why the system is failing, writing another wrapper or conditional just adds noise to noise.
+- *Physics keeps you humble.* Software will do whatever bad logic you tell it to do. A circuit will immediately let you know when your assumptions violate reality.
+- *The best systems feel quiet.* If an interface or a pipeline requires twenty warnings and manual interventions to stay upright, it's not finished.
+
+<br />
+
+---
+
+<br />
+
+### loadout
+
+Tools and languages I write code with regularly:
+
+`C` &nbsp;·&nbsp; `C++` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `JavaScript` &nbsp;·&nbsp; `React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `Node.js` &nbsp;·&nbsp; `HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `Git` &nbsp;·&nbsp; `GitHub`
+
+<br />
+
+---
+
+<br />
 
 <div align="center">
 
@@ -171,10 +180,8 @@ No fake proficiency percentages. Just the languages and tools I write code with 
   <img alt="GitHub Snake animation" src="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake.svg" width="100%" />
 </picture>
 
-</div>
+<br /><br />
 
----
-
-<div align="center">
 <sub>still learning. still building. occasionally breaking everything.</sub>
+
 </div>
