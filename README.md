@@ -12,7 +12,7 @@ Electronics & Instrumentation Engineering Student
 
 ---
 
-## things i use
+## Things I Use
 
 `C` &nbsp;·&nbsp; `C++` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `JavaScript`
 
@@ -26,7 +26,7 @@ Electronics & Instrumentation Engineering Student
 
 ---
 
-## find me
+## Find Me
 
 [LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;·&nbsp; [Email](mailto:vskiran53@gmail.com)
 
