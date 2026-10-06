@@ -34,7 +34,7 @@ Electronics & Instrumentation Engineering Student
 
 ---
 
-## activity
+## Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake-dark.svg" />
