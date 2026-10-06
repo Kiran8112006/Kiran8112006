@@ -1,58 +1,47 @@
-<div align="center">
+# V S KIRAN
 
-<!-- HERO -->
-<img src="./assets/sao-hero.png" width="950" alt="KIRAN — somewhere between circuits and code" />
+Electronics & Instrumentation Engineering Student
 
-<br /><br />
+*somewhere between circuits and code.*
 
-<!-- CONTACT LINKS -->
-[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;·&nbsp; [vskiran53@gmail.com](mailto:vskiran53@gmail.com)
+<br />
 
-<br /><br />
+<img src="./assets/sao-motion.gif" width="700" alt="atmospheric" />
 
-<!-- WHO AM I + CURRENT FOCUS -->
-<img src="./assets/who-am-i.png" width="850" alt="WHO AM I & CURRENT FOCUS" />
+<br />
 
-<br /><br />
+---
 
-<!-- TECHNICAL TOOLBOX -->
-<img src="./assets/toolbox.png" width="850" alt="CURRENT TOOLBOX // things i actually use" />
+## things i use
 
-<br /><br />
+`C` &nbsp;·&nbsp; `C++` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `JavaScript`
 
-<!-- SOLO LEVELING — NEXT SKILL -->
-<img src="./assets/solo-leveling-quest.png" width="850" alt="NEXT SKILL: VLSI" />
+`React` &nbsp;·&nbsp; `Next.js` &nbsp;·&nbsp; `Node.js` &nbsp;·&nbsp; `Git` &nbsp;·&nbsp; `GitHub`
 
-<br /><br />
+<br />
 
-<!-- HORIMIYA — PERSONAL MOMENT -->
-<img src="./assets/horimiya-moment.png" width="650" alt="somewhere between classes and late-night debugging" />
+<img src="./assets/signal-motion.gif" width="700" alt="signal" />
 
-<br /><br />
+<br />
 
-<!-- COTE × THE MENTALIST — MENTAL NOTES -->
-<img src="./assets/mental-notes.png" width="850" alt="mental notes" />
+---
 
-<br /><br />
+## find me
 
-<!-- BLUE LOCK — REVA HACKATHON -->
-<img src="./assets/hackathon.png" width="850" alt="REVA HACKATHON Runner-up" />
+[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;·&nbsp; [Email](mailto:vskiran53@gmail.com)
 
-<br /><br />
+<br />
 
-<!-- CONTRIBUTION SNAKE -->
-<sub>activity</sub>
+---
 
-<br /><br />
+## activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake.svg" width="850" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kiran8112006/Kiran8112006/output/github-snake.svg" width="700" />
 </picture>
 
-<br /><br />
+<br />
 
-<sub>still learning. still building.</sub>
-
-</div>
+*still building.*
