@@ -28,7 +28,7 @@ Electronics & Instrumentation Engineering Student
 
 ## Find Me
 
-[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [GitHub](https://github.com/Kiran8112006) &nbsp;·&nbsp; [Email](mailto:vskiran53@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/vs-kiran-16b178394/) &nbsp;·&nbsp; [Email](mailto:vskiran53@gmail.com)
 
 <br />
 
